@@ -1,0 +1,21 @@
+body {
+    font-family: verdana;
+}
+
+.resaltado {
+    background: yellow;
+}
+
+#menu-principal {
+    font-family: sans-serif;
+}
+
+.titulo {
+    background: aliceblue;
+    text-align: center;
+}
+
+.footer {
+    border-top: 1px solid black;
+    text-align: center;
+}

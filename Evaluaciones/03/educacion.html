@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Currriculum Vitae - Carlos Carrara</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Carlos Carrara">
+    <meta name="description" content="Evalucion N3 - Programación Web - Curriculum Vitae Carlos Carrara">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body>
+    <header>
+            <h1>Carlos Carrara</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        |
+        <a href="experiencia.html">Experiencia</a>
+    </nav>
+
+    <br>
+    <hr>    
+
+    <h3>Educación</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Egreso</th>
+                <th>Institución</th>
+                <th>Nivel</th>
+                <th>Lugar</th>
+                <th>Finalizado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2008</td>
+                <td>FASTA I.I.C.</td>
+                <td>Primario</td>
+                <td>San Francisco, Córdoba</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>2014</td>
+                <td>FASTA I.I.C.</td>
+                <td>Secundario</td>
+                <td>San Francisco, Córdoba</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Univerisdad Tecnológica Nacional</td>
+                <td>Universitario</td>
+                <td>San Francisco, Córdoba</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <h3>Agregar Estudios</h3>
+    <form>
+        <fieldset>
+            <legend>Nuevo Estudio</legend>
+            <p>
+                <label for="ano">Año:</label>
+                <select name="ano" id="txtAno" class="cajaTexto">
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                </select>
+            </p>
+            <p>
+                <label for="institucion">Institución:</label>
+                <input type="text" name="institucion" id="txtInstitucion" placeholder="Ingerese el nombre de la institución..." class="cajaTexto">
+            </p>
+            <p>
+                <label for="lugar">Lugar:</label>
+                <br>
+                <textarea name="lugar" id="txtLugar" cols="35" placeholder="Ingrese la ubicación de la institución..." class="cajaTexto"></textarea>
+            </p>
+            <p>
+                <label for="nivel">Nivel:</label>
+                <input type="text" name="nivel" id="txtNivel" placeholder="Ingerese el nivel alcanzado..." class="cajaTexto">
+            </p>
+            <p>
+                <label for="culmino">¿Finalizó? :</label>
+                <input type="radio" name="culmino" value="Si"> Si
+                <input type="radio" name="culmino" value="No"> No
+            </p>
+        </fieldset>
+    </form>
+
+    <br>
+
+    <footer>
+        <h4>Datos de contacto</h3>
+        <h5><strong>Teléfono: </strong>3564 686475</h5>
+        <h5><strong>Email: </strong><a href="mailto:carlitos.carrara@hotmail.com">carlitos.carrara@hotmail.com</a></h5>
+        <h5><strong>Instagram: </strong><a href="#">@carraracarlitos</a></h5>
+        <h5><strong>Linkedin: </strong><a href="#">Carlos Carrara</a></h5>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Verdana;
+}
+
+nav > a {
+    color: green;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+h1::before {
+    content: "Curriculum Vitae | ";
+}
+
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background: #CCCEEE;
+}
+tbody tr:nth-child(odd) {
+    background: #CCCFFF;
+}
+
+tbody tr:nth-child(even):hover {
+    background: #DDD;
+}
+tbody tr:nth-child(odd):hover {
+    background: #EEE;
+}
+
+*[id^="txt"]{
+    background-color: cyan;
+}
+
+.cajaTexto {
+    font-size: 12px;
+    font-family: Arial;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+h3 ~ p:hover {
+    text-decoration: underline;
+}
